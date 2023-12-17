@@ -13,6 +13,12 @@ body{
     background-color: whitesmoke;
 }
 
+.grid{
+    margin: auto;
+    display: grid;
+    grid-template-areas: repeat(auto-fit, minmax(200px, 1fr));
+}
+
 .product-card {
     background-color: #fff;
     padding: 2rem;
